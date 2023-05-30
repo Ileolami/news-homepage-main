@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Outfit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+font-size: 15px;
+margin: 15px;
+font-family: 'Inter', sans-serif;
+}
+nav{
+    background: none;
+    margin: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav .icon{
+    display: none; 
+}
+nav ul li{
+display: inline-block;
+margin: 0 5px;
+}
+nav ul li a{
+    color: hsl(236, 13%, 42%);
+}
+nav ul li a:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+main {
+    display: flex;
+}
+.first-phase{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.desktopimg{
+    grid-column: 1/3;
+    margin-bottom: 10px;
+}
+.web3{
+    font-size: 30px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+.mission{
+    padding: 0 20px;
+    line-height: 23px;
+    color: hsl(236, 13%, 42%);
+}
+.second-phase{
+    background-color: black;
+    padding: 30px;
+    margin: 0 10px 0 15px;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: auto;
+    color: hsl(36, 100%, 99%);
+    line-height: 20px;
+}
+.second-phase .rowline{
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+button{
+    margin-top: 20px;
+    border: 5px none;
+    background-color: hsl(5, 85%, 63%);
+    letter-spacing: 5px;
+    color: hsl(36, 100%, 99%);
+    width: 180px;
+    height: 50px;
+}
+p{
+    color: hsl(236, 13%, 42%);
+}
+h2{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+footer{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+h4{
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 5px;
+color: hsl(236, 13%, 42%);
+}
+h5{
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+footer section{
+    display: flex;
+    gap: 10px;
+}
+footer section img{
+    width: 100px
+}
+@media (max-width: 768px) {
+   
+}
