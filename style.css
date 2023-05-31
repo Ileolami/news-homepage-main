@@ -8,7 +8,7 @@ box-sizing: border-box;
 }
 body {
 font-size: 15px;
-margin: 15px;
+margin: 15px 30px;
 font-family: 'Inter', sans-serif;
 }
 nav{
@@ -44,6 +44,10 @@ main {
     grid-column: 1/3;
     margin-bottom: 10px;
 }
+.image{
+    max-width: 100%;
+    height: auto;
+}
 .web3{
     font-size: 30px;
     font-weight: 800;
@@ -57,7 +61,7 @@ main {
 .second-phase{
     background-color: black;
     padding: 30px;
-    margin: 0 10px 0 15px;
+    margin: 0 30px;
     display: grid;
     row-gap: 10px;
     grid-template-rows: auto;
@@ -76,6 +80,10 @@ button{
     width: 180px;
     height: 50px;
 }
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
 p{
     color: hsl(236, 13%, 42%);
 }
@@ -86,9 +94,13 @@ h2{
     margin-bottom: 15px;
 }
 h3{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 7px;
+}
+h3 :hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
 }
 footer{
     display: flex;
@@ -106,6 +118,10 @@ h5{
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 5px;
+}
+h5 :hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
 }
 footer section{
     display: flex;
