@@ -63,7 +63,7 @@ main {
     padding: 30px;
     margin: 0 30px;
     display: grid;
-    row-gap: 10px;
+    row-gap: 20px;
     grid-template-rows: auto;
     color: hsl(36, 100%, 99%);
     line-height: 20px;
@@ -130,6 +130,35 @@ footer section{
 footer section img{
     width: 100px
 }
-@media (max-width: 768px) {
-   
-}
+@media (min-width:375px) and (max-width:775px) {
+    .image{
+     min-width: 300px;
+     min-height: 300px;
+    }
+    body{
+     margin: 15px;
+    }
+    main{
+     flex-direction: column;
+    }
+    .first-phase{
+     display: flex;
+     flex-direction: column;
+    }
+    .mission{
+     line-height: 23px;
+     padding: auto;
+     margin-left: -20px;
+    }
+    .second-phase{
+        margin: 15px 0 0 0;
+        max-width: 370px;
+        row-gap: 20px;
+    }
+    button{
+        margin: 10px 0 ;
+    }
+    footer{
+     flex-direction: column;
+    }
+ }
