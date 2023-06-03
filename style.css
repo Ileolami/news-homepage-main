@@ -130,7 +130,7 @@ footer section{
 footer section img{
     width: 100px
 }
-@media (min-width:375px) and (max-width:775px) {
+@media (max-width:375px) {
     .image{
      min-width: 300px;
      min-height: 300px;
