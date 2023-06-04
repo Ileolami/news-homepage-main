@@ -145,9 +145,8 @@ box-sizing: border-box;
      min-height: 300px;
     }
     body{
-     margin: 5px;
+     margin: 5px 10px 5px 5px;
      font-size: 12px;
-     
     }
     main{
      flex-direction: column;
@@ -175,18 +174,18 @@ box-sizing: border-box;
  }
  @media (max-width: 908px){
     .image{
-        max-width: 386px;
-        max-height: 300px;
+        min-width: 350px;
+        min-height: 200px;
        }
        body{
-        padding: 5px 0px 5px 5px;
+        padding: 5px 10px 5px 5px;
         font-size: 12px;
        }
        main{
         flex-direction: column;
        }
        .mission{
-        line-height: 23px;
+        line-height: 20px;
         padding: auto;
         margin-left: -20px;
        }
@@ -195,7 +194,7 @@ box-sizing: border-box;
        }
        .second-phase{
            margin: 15px 0 0 0;
-           max-width: 350px;
+           min-width: 350px;
            max-height: 400px;
            row-gap: 20px;
        }
